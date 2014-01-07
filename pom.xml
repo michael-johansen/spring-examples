@@ -13,6 +13,7 @@
         <module>tasks</module>
         <module>helloworld</module>
         <module>jdbc</module>
+        <module>pub-app</module>
     </modules>
 
     <properties>

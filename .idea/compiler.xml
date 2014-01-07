@@ -25,6 +25,7 @@
         <module name="autowiring" />
         <module name="helloworld" />
         <module name="jdbc" />
+        <module name="pub-app" />
         <module name="tasks" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="autowiring" target="1.7" />
       <module name="helloworld" target="1.7" />
       <module name="jdbc" target="1.7" />
+      <module name="pub-app" target="1.7" />
       <module name="spring-examples" target="1.7" />
       <module name="tasks" target="1.7" />
     </bytecodeTargetLevel>

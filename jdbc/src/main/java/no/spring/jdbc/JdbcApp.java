@@ -41,6 +41,7 @@ public class JdbcApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(JdbcApp.class);
         JdbcTemplate jdbcTemplate = context.getBean(JdbcTemplate.class);
+        jdbcTemplate.setMaxRows(10);
 
         List<City> cityList = jdbcTemplate.query("select * from city", new CityRowMapper());
         for (City city : cityList) {

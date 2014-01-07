@@ -24,8 +24,8 @@ public class MyAutowiringApplication {
         myService.put("2", "Goodbye, World!");
 
         LOG.info("Application contains {} entries.", myService.count());
-        LOG.info("Entry 1: ", myService.get("1"));
-        LOG.info("Entry 2: ", myService.get("2"));
+        LOG.info("Entry 1: {}", myService.get("1"));
+        LOG.info("Entry 2: {}", myService.get("2"));
 
         LOG.info("Terminating application");
     }

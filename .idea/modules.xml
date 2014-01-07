@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/autowiring/autowiring.iml" filepath="$PROJECT_DIR$/autowiring/autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pub-app/pub-app.iml" filepath="$PROJECT_DIR$/pub-app/pub-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-examples.iml" filepath="$PROJECT_DIR$/spring-examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
     </modules>
