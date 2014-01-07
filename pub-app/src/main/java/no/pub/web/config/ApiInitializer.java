@@ -1,5 +1,7 @@
 package no.pub.web.config;
 
+import no.pub.repository.config.RepositoryConfig;
+import no.pub.service.config.ServiceConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.Filter;
@@ -14,6 +16,8 @@ public class ApiInitializer extends AbstractAnnotationConfigDispatcherServletIni
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{
+                RepositoryConfig.class,
+                ServiceConfig.class
         };
     }
 

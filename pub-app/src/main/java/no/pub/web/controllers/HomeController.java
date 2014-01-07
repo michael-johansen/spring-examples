@@ -1,4 +1,4 @@
-package no.pub.web.config;
+package no.pub.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,6 +14,6 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomeController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ModelAndView home(){
-        return new ModelAndView("WEB-INF/pages/index.jsp");
+        return new ModelAndView("index");
     }
 }
