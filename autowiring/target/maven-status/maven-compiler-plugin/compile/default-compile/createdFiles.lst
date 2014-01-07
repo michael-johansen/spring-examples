@@ -1,0 +1,5 @@
+no\spring\autowiring\MyService.class
+no\spring\autowiring\MyRepositoryImpl.class
+no\spring\autowiring\MyServiceImpl.class
+no\spring\autowiring\MyRepository.class
+no\spring\autowiring\MyAutowiringApplication.class
