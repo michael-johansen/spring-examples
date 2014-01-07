@@ -96,10 +96,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pub-app/pom.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pub-app/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="17" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.5822785" vertical-offset="906" max-vertical-offset="1947">
+            <state line="7" column="33" selection-start="157" selection-end="157" vertical-scroll-proportion="0.33870968" vertical-offset="0" max-vertical-offset="682">
               <folding />
             </state>
           </provider>
@@ -152,8 +152,11 @@
         <option value="$PROJECT_DIR$/jdbc/src/main/java/no/spring/jdbc/JdbcApp.java" />
         <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/config/web/WebConfig.java" />
-        <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/pub-app/pom.xml" />
+        <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/ApiInitializer.java" />
+        <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/HomeController.java" />
+        <option value="$PROJECT_DIR$/pub-app/src/main/webapp/WEB-INF/pages/index.jsp" />
       </list>
     </option>
   </component>
@@ -181,6 +184,38 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="pub-app" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="pub-app" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="pub-app" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="jetty" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -304,6 +339,40 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -358,7 +427,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/pub-app/src/main/java/no/pub/config" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
@@ -375,6 +444,7 @@
     <property name="LayoutCode.rearrangeEntriesH2" value="false" />
     <property name="FullScreen" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="SearchEverywhereHistory" value="&#10;run" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -813,12 +883,12 @@
       <workItem from="1389019059539" duration="61000" />
       <workItem from="1389019121285" duration="15000" />
       <workItem from="1389019137571" duration="1818000" />
-      <workItem from="1389081766295" duration="7995000" />
+      <workItem from="1389081766295" duration="9741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38873000" />
+    <option name="totallyTimeSpent" value="40619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -841,7 +911,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.284375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -850,10 +920,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5101852" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.284375" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22083333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26770833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="2020" y="100" width="1720" height="880" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -919,45 +989,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="697" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasks/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="782" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="20" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="1241">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyAutowiringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="52" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="323" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autowiring/src/main/java/no/spring/autowiring/MyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="30" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="765" />
@@ -1105,7 +1136,9 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="67" selection-start="3712" selection-end="3712" vertical-scroll-proportion="-0.8765625" vertical-offset="1836" max-vertical-offset="52292" />
+        <state line="108" column="67" selection-start="3712" selection-end="3712" vertical-scroll-proportion="-0.8765625" vertical-offset="1836" max-vertical-offset="52292">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.0.0.RELEASE/spring-jdbc-4.0.0.RELEASE-sources.jar!/org/springframework/jdbc/core/RowMapper.java">
@@ -1266,16 +1299,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/WebConfig.java">
+    <entry file="file://$PROJECT_DIR$/pub-app/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="0.41022098" vertical-offset="0" max-vertical-offset="724">
+        <state line="31" column="23" selection-start="966" selection-end="966" vertical-scroll-proportion="0.5822785" vertical-offset="609" max-vertical-offset="1947">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pub-app/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE-sources.jar!/org/springframework/web/WebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="17" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.5822785" vertical-offset="906" max-vertical-offset="1947">
+        <state line="177" column="17" selection-start="8844" selection-end="8869" vertical-scroll-proportion="0.4189064" vertical-offset="4894" max-vertical-offset="5973">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.0.RELEASE/spring-web-4.0.0.RELEASE-sources.jar!/org/springframework/web/context/AbstractContextLoaderInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="69" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.030583873" vertical-offset="561" max-vertical-offset="2145">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE-sources.jar!/org/springframework/web/servlet/support/AbstractDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="22" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.030583873" vertical-offset="924" max-vertical-offset="5808">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.0.RELEASE/spring-webmvc-4.0.0.RELEASE-sources.jar!/org/springframework/web/servlet/support/AbstractAnnotationConfigDispatcherServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="24" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.061167747" vertical-offset="693" max-vertical-offset="2970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/ApiInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="342" selection-end="342" vertical-scroll-proportion="0.24467099" vertical-offset="0" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="334" selection-end="344" vertical-scroll-proportion="0.5013812" vertical-offset="0" max-vertical-offset="724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub-app/src/main/java/no/pub/web/config/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="377" selection-end="377" vertical-scroll-proportion="0.43339586" vertical-offset="0" max-vertical-offset="1066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub-app/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="157" selection-end="157" vertical-scroll-proportion="0.33870968" vertical-offset="0" max-vertical-offset="682">
           <folding />
         </state>
       </provider>
@@ -1289,11 +1371,11 @@
             <show-content>
               <type id="artifact" />
               <type id="javaee-facet-resources" />
-              <type id="library" />
               <type id="jpa-descriptors" />
+              <type id="library" />
             </show-content>
           </artifact-editor>
-          <last-edited>pub-app:war</last-edited>
+          <last-edited>pub</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1342,7 +1424,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|pub-app</last-edited>
+          <last-edited>pub-app</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
