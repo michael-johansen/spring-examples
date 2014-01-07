@@ -1,2 +1,6 @@
-.idea out spring-examples.iml target
+.idea
+out
+*.iml
+target
+
 
