@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/aspect/aspect.iml" filepath="$PROJECT_DIR$/aspect/aspect.iml" />
       <module fileurl="file://$PROJECT_DIR$/autowiring/autowiring.iml" filepath="$PROJECT_DIR$/autowiring/autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />

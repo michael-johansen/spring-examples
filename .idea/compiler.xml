@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="aspect" />
         <module name="autowiring" />
         <module name="helloworld" />
         <module name="jdbc" />
@@ -30,6 +31,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aspect" target="1.7" />
       <module name="autowiring" target="1.7" />
       <module name="helloworld" target="1.7" />
       <module name="jdbc" target="1.7" />
