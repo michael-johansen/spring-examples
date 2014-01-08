@@ -1,4 +1,12 @@
 package no.pub.model;
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotBlank;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+
 /**
  * User: Michael Johansen
  * Date: 07.01.14
@@ -6,12 +14,20 @@ package no.pub.model;
  */
 public class Pub {
     private Long id;
+    @NotBlank
+    @Length(min = 3,max = 64)
     private String name;
+    @NotBlank
+    @Length(min = 3,max = 64)
     private String type;
+    @NotNull
+    @Min(0)
+    @Max(6)
     private Integer rating;
 
     private Double lat;
     private Double lon;
+    private String postalCode;
 
     public Long getId() {
         return id;
@@ -59,5 +75,13 @@ public class Pub {
 
     public void setLon(Double lon) {
         this.lon = lon;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 }

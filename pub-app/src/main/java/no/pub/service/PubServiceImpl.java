@@ -35,4 +35,9 @@ public class PubServiceImpl implements PubService {
     public void save(Pub pub) {
         pubRepository.save(pub);
     }
+
+    @Override
+    public void delete(Long id) {
+        pubRepository.delete(id);
+    }
 }

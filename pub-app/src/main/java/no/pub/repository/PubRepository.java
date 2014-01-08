@@ -13,4 +13,6 @@ public interface PubRepository {
     Pub getById(Long id);
     List<Pub> getAll();
     void save(Pub pub);
+
+    void delete(Long id);
 }

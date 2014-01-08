@@ -2,6 +2,7 @@ package no.pub.web.config;
 
 import no.pub.repository.config.RepositoryConfig;
 import no.pub.service.config.ServiceConfig;
+import org.springframework.web.filter.HiddenHttpMethodFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 import javax.servlet.Filter;
@@ -31,6 +32,7 @@ public class ApiInitializer extends AbstractAnnotationConfigDispatcherServletIni
     @Override
     protected Filter[] getServletFilters() {
         return new Filter[]{
+                new HiddenHttpMethodFilter()
         };
     }
 }

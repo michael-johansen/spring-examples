@@ -9,11 +9,14 @@
 <body>
 Pub:
 <form:form modelAttribute="pub" method="post">
-    Name: <form:input path="name"/> <br>
-    Type: <form:input path="type"/> <br>
-    Rating: <form:input path="rating"/> <br>
-    Lat: <form:input path="lat"/> <br>
-    Lon: <form:input path="lon"/> <br>
+    <div><form:errors path=""/></div>
+
+    <div>Name: <form:input path="name"/> <form:errors path="name"/></div>
+    <div>Type: <form:input path="type"/> <form:errors path="type"/></div>
+    <div>Rating: <form:input path="rating"/> <form:errors path="rating"/></div>
+    <div>Lat: <form:input path="lat"/> <form:errors path="lat"/></div>
+    <div>Lon: <form:input path="lon"/> <form:errors path="lon"/></div>
+    <div>Postal code: <form:input path="postalCode"/> <form:errors path="postalCode"/> ${postalCodeArea}</div>
     <form:button>Lagre</form:button>
 </form:form>
 </body>
