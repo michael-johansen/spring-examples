@@ -1,6 +1,9 @@
 .idea
-out
+.settings
 *.iml
+*.eml
+out
+bin
 target
-
-
+.project
+.classpath
