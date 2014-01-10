@@ -15,6 +15,7 @@
         <module>jdbc</module>
         <module>pub-app</module>
         <module>aspect</module>
+        <module>web-app</module>
     </modules>
 
     <properties>
