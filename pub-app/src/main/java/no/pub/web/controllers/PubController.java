@@ -5,6 +5,7 @@ import no.pub.service.PostalCodeAreaService;
 import no.pub.service.PubService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.StringUtils;
 import org.springframework.validation.Errors;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -66,7 +67,7 @@ public class PubController {
     private ModelAndView pubForm(Pub pub) {
         Map<String, Object> model = new HashMap<>();
         model.put( "pub", pub);
-        if(pub.getPostalCode() != null){
+        if(StringUtils.hasText(pub.getPostalCode())){
             model.put("postalCodeArea", postalCodeAreaService.findByPostalCode(pub.getPostalCode()));
         }
         return new ModelAndView("pub/edit", model);
