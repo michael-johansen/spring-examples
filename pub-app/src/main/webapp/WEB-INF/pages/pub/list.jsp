@@ -11,11 +11,11 @@
     <spring:message code="greeting" />
 </h1>
 
-<table>
+<table border="true" cellpadding="10" cellspacing="0">
     <thead>
     <th>Name</th>
     <th>Type</th>
-    <th>Rating</th>
+    <th><a href="${sort}">Rating</a></th>
     <th>Latitude</th>
     <th>Longitude</th>
     <th>Postal code</th>

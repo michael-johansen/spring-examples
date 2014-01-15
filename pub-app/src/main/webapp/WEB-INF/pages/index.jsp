@@ -1,13 +1,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <html>
 <head>
-    <title></title>
+    <title>Pub app</title>
 </head>
 <body>
-Theese pubs are in your vicinity:
+<h1>
+<spring:message code="startMessage" />
+</h1>
     <ul>
-        <li>Crowbar</li>
-        <li>Schoukjelleren</li>
+        <li><a href="<c:url value="/pub" />">Pub list</a></li>
+        <li><a href="<c:url value="/info" />">Pub info</a></li>
     </ul>
 </body>
 </html>

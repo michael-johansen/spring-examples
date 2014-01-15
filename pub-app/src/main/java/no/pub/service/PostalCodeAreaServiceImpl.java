@@ -32,7 +32,7 @@ public class PostalCodeAreaServiceImpl implements PostalCodeAreaService {
         if(postalCodeAreaResponse != null &&  !postalCodeAreaResponse.getPostal_codes().isEmpty()){
             return postalCodeAreaResponse.getPostal_codes().get(0).getCity();
         }
-        return "N/A";
+        return "postal does not exist";
     }
 
     private ResponseEntity<PostalCodeAreaResponse> getForEntity(String url, Class<PostalCodeAreaResponse> responseType,

@@ -7,3 +7,8 @@ create table PUB (
   lon number,
   postalcode varchar2(8),
 );
+create table INFO (
+  id integer not null primary key auto_increment,
+  type varchar2(64) not null,
+  info varchar2(64) not null ,
+);
